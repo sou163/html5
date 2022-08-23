@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Marksheet</title>
+        <link rel="stylesheet" type="text/css" href="marksheet.css">
+        <script type="text/javascript" src="marksheet.js"></script>
+    </head>
+    <body>
+        <center>
+        	<h1>MarkSheet</h1><br>
+	        <div id="values">
+	        	<fieldset>
+	        		<legend>Marks Details</legend>
+	       			
+	                <label for="sub1">Subject 1 :</label>
+	                <input type="text" id="sub1" name="sub1" tabindex="1">
+	                <label for="tot1">Out of :</label>
+	                <input type="text" id="tot1" name="tot1" tabindex="2">
+	                <label for="per1" >Percentage :</label>
+					<input type="text" id="per1" name="per1" readonly><br><br>
+	                
+	                <label for="sub2">Subject 2 :</label>
+	                <input type="text" id="sub2" name="sub2" tabindex="3">
+	                <label for="tot2">Out of :</label>
+	                <input type="text" id="tot2" name="tot2" tabindex="4">
+	                <label for="per2">Percentage :</label>
+					<input type="text" id="per2" name="per2" readonly><br><br>
+	                
+	                <label for="sub3">Subject 3 :</label>
+	                <input type="text" id="sub3" name="sub3" tabindex="5">
+	                <label for="tot3">Out of :</label>
+	                <input type="text" id="tot3" name="tot3" tabindex="6">
+	                <label for="per3">Percentage :</label>
+	                <input type="text" id="per3" name="per3" readonly><br><br>
+
+	                <label for="sub4">Subject 4 :</label>
+	                <input type="text" id="sub4" name="sub4" tabindex="7">
+	                <label for="tot4">Out of :</label>
+	                <input type="text" id="tot4" name="tot4" tabindex="8">
+	                <label for="per4">Percentage :</label>
+	                <input type="text" id="per4" name="per4" readonly><br><br>
+
+	                <label for="sub5">Subject 5 :</label>
+	                <input type="text" id="sub5" name="sub5" tabindex="9">
+	                <label for="tot5">Out of :</label>
+	                <input type="text" id="tot5" name="tot5" tabindex="10">
+	                <label for="per5">Percentage :</label>
+	                <input type="text" id="per5" name="per5" readonly>
+	                <br><br><br>
+
+            		<input type="button" onclick="calculate()" id="cal" value="Calculate" accesskey="s">
+            		<input type="button" onclick="refresh()" id="res" value="Reset" accesskey="r">
+            		<br><br>
+            	</fieldset>
+            </div>
+            <div id="result">
+            	<fieldset>
+            		<legend>Result</legend>
+		            <label for="totalP">Percentage :</label>
+		            <input type="text" id="totalP" name="totalP" readonly>
+		            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		            <label for="grade">Grade :</label>
+		            <input type="text" id="grade" name="grade" readonly><br><br>
+            	</fieldset>
+            </div>
+    	</center>
+    </body>
+</html>

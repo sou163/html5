@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Picture Slideshow</title>
+	<link rel="stylesheet" type="text/css" href="slideshow.css">
+	
+</head>
+<body>
+	<center>
+		<div><h2>SlideShow</h2></div>
+		<div id="container">
+			<div id="numbers"></div><br>
+			<div id="images" class="fadeIn"></div><br>
+			<div id="captions"></div><br>
+			<div id="buttons">
+				<a id="prev" onclick="slides(-1)">&#10094;</a>
+				<a id="next" onclick="slides(1)">&#10095;</a>
+			</div>
+			<div id="circles">
+				<span class="dots" onclick="changeSlide(1)"></span>
+				<span class="dots" onclick="changeSlide(2)"></span>
+				<span class="dots" onclick="changeSlide(3)"></span>
+				<span class="dots" onclick="changeSlide(4)"></span>
+				<span class="dots" onclick="changeSlide(5)"></span>
+			</div>
+		</div>
+	</center>
+	<script type="text/javascript" src="slideshow.js"></script>
+</body>
+</html>

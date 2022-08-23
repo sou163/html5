@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Employee Payslip</title>
+	<link rel="stylesheet" type="text/css" href="payslip.css">
+	<script type="text/javascript" src="payslip.js"></script>
+</head>
+<body onload="begin()">	
+	<!--div id="page"-->
+		<center>
+			<br>
+			<div class="payslip"><h1>Employee Payslip</h1></div>
+			<div>
+				<fieldset id="slip">
+					<legend><h3><b>Enter Details</b></h3></legend>
+					<label for="emp_name"><b>Employee name</b><span class="required">*</span></label>  
+					<input type="text" name="emp_name" placeholder="Your Name" id="emp_name"><br><br>
+					<label for="basic_sal"><b>Basic Pay</b><span class="required">*</span></label>
+					<input type="text" name="basic_sal" placeholder="0" id="basic_sal">
+				</fieldset>
+			</div>
+			<br>
+			<div id="buttons">
+				<button id="sub_btn" onclick="calculate()"><b>Submit</b></button>   
+				<button id="res_btn" onclick="reload()"><b>Reset</b></button>
+			</div>
+			<div>
+				<fieldset id="result">
+					<legend><h3><b>Your Payslip</b></h3></legend>
+					<label for="name"><b>Employee Name</b></label>
+					<input type="text" name="name" id="name" readonly><br><br>
+					<!--label for="basic"><b>Basic Salary</b></label>
+					<input type="text" name="basic" id="basic" readonly><br><br-->
+					<label for="da"><b>Dearness Allowance</b></label>
+					<input type="text" name="da" id="da" readonly><br><br>
+					<label for="hra"><b>HR Allowance</b></label>
+					<input type="text" name="hra" id="hra" readonly><br><br>
+					<label for="pf"><b>Provident Fund</b></label>
+					<input type="text" name="pf" id="pf" readonly><br><br>
+					<label for="gross"><b>Gross Salary</b></label>
+					<input type="text" name="gross" id="gross" readonly><br><br>
+					<label for="net"><b>Net Salary</b></label>
+					<input type="text" name="net" id="net" readonly>
+				</fieldset>
+			</div>		
+		</center>
+		
+	<!--/div-->
+</body>
+</html>

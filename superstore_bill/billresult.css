@@ -1,0 +1,30 @@
+body{
+    background: cadetblue;
+    font-family: Georgia;
+}
+fieldset{
+    background-color: whitesmoke;
+    text-transform: bold;
+    width: 30%;
+    border: 2px solid sienna;
+    border-radius: 20px;
+}
+h1{
+    color: peachpuff;
+    margin: 40px;
+}
+td{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid seagreen;
+    border-radius: 5px;
+}
+.chart{
+    border: 5px dashed seagreen;
+    border-radius: 15px;
+}
+.headings{
+	text-align: center;
+    font-size: 25px;
+}
+

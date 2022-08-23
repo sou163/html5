@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Billing System</title>
+	<link rel="stylesheet" type="text/css" href="bill.css">
+</head>
+<body>
+	<center>
+		<div><h1>Superstore Billing System</h1></div>
+		<div id="items">
+			<form action="billresult.php" method="post">
+				<fieldset>
+					<h2><u>Item Chart</u></h2>
+					<table>
+						<tr>
+							<td class="headings"><u>Items</u></td>
+							<td class="headings"><u>Quantity</u></td>
+							<td class="headings"><u>Price Per Unit</u></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="i1" id="i1" placeholder="Item 1" tabindex="1"></td>
+							<td><input type="text" name="q1" id="q1" placeholder="0" tabindex="2"></td>
+							<td><input type="text" name="p1" id="p1" placeholder="0" tabindex="3"></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="i2" id="i2" placeholder="Item 2" tabindex="4"></td>
+							<td><input type="text" name="q2" id="q2" placeholder="0" tabindex="5"></td>
+							<td><input type="text" name="p2" id="p2" placeholder="0" tabindex="6"></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="i3" id="i3" placeholder="Item 3" tabindex="7"></td>
+							<td><input type="text" name="q3" id="q3" placeholder="0" tabindex="8"></td>
+							<td><input type="text" name="p3" id="p3" placeholder="0" tabindex="9"></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="i4" id="i4" placeholder="Item 4" tabindex="10"></td>
+							<td><input type="text" name="q4" id="q4" placeholder="0" tabindex="11"></td>
+							<td><input type="text" name="p4" id="p4" placeholder="0" tabindex="12"></td>
+						</tr>
+						<tr>
+							<td id="b1"><input type="submit" value="Calculate" class="btn" accesskey="s"></td>
+							<td></td>
+							<td id="b2"><input type="reset" value="Reset" class="btn" accesskey="r"></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+		</div>
+	</center>
+</body>
+</html>

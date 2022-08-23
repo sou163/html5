@@ -1,0 +1,37 @@
+body{
+    background: cadetblue;
+    font-family: Georgia;
+}
+fieldset{
+    background-color: whitesmoke;
+    text-transform: bold;
+    width: 50%;
+    border: 2px solid sienna;
+    border-radius: 20px;
+}
+h1{
+    color: peachpuff;
+    margin: 40px;
+}
+tr, td{
+    padding: 15px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+.headings{
+	text-align: center;
+    font-size: 25px;
+}
+.btn{
+	font-size: 25px;
+	background-color: lightgreen;
+	width: 150px;
+    height: 40px;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+#b1{
+   float: right; 
+}
